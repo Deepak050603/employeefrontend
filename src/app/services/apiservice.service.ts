@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiserviceService {
 
-  serverUrl:string = "http://localhost:4000"
+  serverUrl:string = "https://employeebackend-nrpj.onrender.com"
 
   constructor(private http:HttpClient) { }
 
